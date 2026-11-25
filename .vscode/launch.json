@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:looper}",
+            "name": "Debug loop-router",
+            "target": "loop-router",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug loop-router"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:looper}",
+            "name": "Release loop-router",
+            "target": "loop-router",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release loop-router"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:looper}",
+            "name": "Debug pack-network",
+            "target": "pack-network",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug pack-network"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:looper}",
+            "name": "Release pack-network",
+            "target": "pack-network",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release pack-network"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+  "junctions": 10488,
+  "junction_osm_nodes": 12507,
+  "segments": 17019,
+  "ways": 174860,
+  "network_km": 37715,
+  "way_km_by_safety_label": {
+    "separated": 14821.0,
+    "bike_priority": 1539.0,
+    "quiet_shared": 4450.0,
+    "rural_lane": 10930.0,
+    "painted_lane": 551.0,
+    "shared_road": 4957.0,
+    "ferry": 191.0
+  },
+  "urban_km": 11470,
+  "lf_km": 4032,
+  "eurovelo_km": 2146,
+  "traffic_signal_intersections": 2584,
+  "cells": 8942,
+  "cells_by_cyclability": {
+    "0-19": 988,
+    "20-39": 1312,
+    "40-59": 3089,
+    "60-79": 2664,
+    "80-99": 859
+  },
+  "length_weighted_safety_score": 73.6,
+  "segment_flags": {
+    "incomplete_members": 328,
+    "surface_unknown_gt20pct": 233,
+    "ambiguous_junction": 193,
+    "ferry": 181,
+    "to_junction_not_on_route": 175,
+    "from_junction_not_on_route": 159,
+    "gap": 62,
+    "unparsed_ref": 8
+  },
+  "junction_flags": {
+    "degree_mismatch": 113,
+    "dead_end": 90,
+    "unconnected": 37
+  },
+  "single_node_junction_degree_matches_expected": "4309 / 4395",
+  "graph_components": 3,
+  "largest_component_junctions": 10444,
+  "junction_elevation_sources": {
+    "ahn_dtm_05m": 10239,
+    "copernicus_90m": 172,
+    "ahn_dtm_05m_25m_window": 77
+  },
+  "elevation_range_m": [
+    -6.58,
+    321.0
+  ],
+  "segments_steeper_than_4pct": 15,
+  "elevation_attribution": "AHN DTM 0.5 m via PDOK (CC0)",
+  "osm_attribution": "© OpenStreetMap contributors, ODbL 1.0"
+}

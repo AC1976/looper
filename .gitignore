@@ -1,0 +1,28 @@
+# Swift build output
+.build/
+.swiftpm/
+LooperKit/.build/
+LooperKit/.swiftpm/
+
+# Python environment and caches for the extractor
+extractor/.venv/
+__pycache__/
+
+# OSM input (1.4 GB; download it from Geofabrik, see README)
+*.osm.pbf
+
+# Large dataset layers, rebuilt by the extractor (about 110 MB). The repo keeps the small
+# files the router needs: network.bin, cells, elevation_cache.json, summary.json, preview.
+data/nl/segments.geojson
+data/nl/segments.parquet
+data/nl/junctions.geojson
+data/nl/junctions.parquet
+data/nl/ways.parquet
+
+# Runner output
+/loops.geojson
+/loop-*.gpx
+
+# Local tool settings
+.claude/settings.local.json
+.DS_Store

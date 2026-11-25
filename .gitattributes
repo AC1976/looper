@@ -1,0 +1,4 @@
+# Binary data: never convert line endings
+*.bin binary
+*.parquet binary
+*.png binary
